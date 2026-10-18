@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Message": {
+      "collection": "chatrooms/{roomId}/messages",
+      "fields": {
+        "id": { "type": "string", "description": "Auto-generated document ID" },
+        "roomId": { "type": "string", "description": "Chatroom identifier" },
+        "senderId": { "type": "string", "description": "Auth UID of message author" },
+        "senderName": { "type": "string", "description": "Display name of sender" },
+        "senderAvatar": { "type": "string", "description": "Avatar URL of sender" },
+        "text": { "type": "string", "description": "Message text content" },
+        "createdAt": { "type": "timestamp", "description": "Server timestamp of creation" }
+      }
+    }
+  }
+}
